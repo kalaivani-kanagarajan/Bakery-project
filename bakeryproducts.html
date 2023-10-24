@@ -1,0 +1,1072 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Sweety's Bakery Products</title>
+    <script src="lib/jquery[lib]/code.jquery.com_jquery-3.7.0.slim.min.js"></script>
+    <link rel="shortcut icon" href="images/bakerylogo1.png">
+    <link rel="stylesheet" href="lib/css/all.css">
+    
+</head>
+<style>
+
+:root{
+    --margin:auto;
+    --maxwidth:1200px;   /*sections */
+    --width:100%;   /*whole section */
+    --minheight:400%;
+}
+body{
+    background-color:#FAF0E6;
+}
+
+/* section 1*/
+.wholesection1{
+    border:var(--border);
+    margin:var(--margin);
+    width:var(--width);
+    min-height:var(--minheight);
+    background-color:blanchedalmond;
+    position:sticky;
+    top:10px;
+    z-index: 1;
+}
+.section1{
+    
+    border:var(--border1);
+    margin:var(--margin);
+    max-width:var(--maxwidth);
+    margin-bottom:20px;
+    
+}
+
+.navsec{
+    border:var(--border2);
+    margin:var(--margin);
+    width:100%;
+    
+    display:flex;
+    justify-content: space-between;
+    
+}
+.logo1 img{
+   flex-basis:15%;
+   width:30%;
+   
+}
+.logo2 {
+   margin-top:3%;
+   margin-right: 18%;
+   flex-basis:60%;
+  
+}
+.logo3{
+    flex-basis:10%;
+    margin-top:20px;
+    width:30px;
+    height:25px;
+    
+}
+.logo4{
+    text-decoration:none;
+    color:white;
+    border:1px solid rgb(163, 130, 130);
+    background-color:brown;
+    font-size:20px;
+    font-style: oblique;
+    padding:5px;
+    display:inline-block;
+    margin-top:10px;
+    
+} 
+
+
+.smain{
+    display:none;
+    position:relative;
+}
+
+.search{
+ 
+ position:absolute;
+ margin-left:-10px;
+ margin-top:10px;
+} 
+.box{
+    color:white;
+    position:absolute;
+    margin-top:10px;
+    margin-left:142px;
+    background-color:brown;
+    padding:1px;
+}
+ 
+.menu li {
+    list-style-type:none;
+    display:inline-block;
+    font-style:oblique;
+    font-size:20px;
+    justify-content: space-between;
+}
+.menu li a{
+text-decoration: none;
+color:brown;
+padding:20px;
+   
+}
+.bars{
+    display:none;
+}
+
+
+
+/* section 1c*/
+.wholesection1c{
+    border:var(--border);
+    margin:var(--margin);
+    width:var(--width);
+    min-height:var(--minheight);
+   
+}
+.section1c{
+    
+    border:var(--border1);
+    margin:var(--margin);
+    max-width:var(--maxwidth);
+    background-color:brown;
+}
+
+.menuc li{
+    list-style-type: none;
+    display:inline-block;
+    font-size:20px;
+    
+    
+}
+.menuc li a{
+    text-decoration:none;
+    color:white;
+    font-style: oblique;
+    display:inline-block;
+    padding:20px;
+    
+}
+
+/* section 2*/
+
+.wholesection2{
+    border:var(--border);
+    margin:var(--margin);
+    width:var(--width);
+    min-height:var(--minheight);
+
+}
+
+.section2{
+    
+    border:var(--border1);
+    margin:var(--margin);
+    max-width:var(--maxwidth);
+    background-color:#db650b7d ;
+    
+}
+.sizes{
+    display:flex;
+    margin-top:20px;
+}
+.products{
+    display:flex;
+    justify-content: space-between;
+    padding:20px;
+    margin-top:20px;
+}
+.products1 ,.products2{
+padding:20px;
+width:50%;
+}
+.sizess{
+    display:flex;
+}
+#size2{
+    margin-top:20px;
+    margin-left: 150px;
+    border:3px solid brown;
+    padding:20px;
+    width:65%;
+}
+.flavourss{
+    display:flex;
+}
+#flv2{
+    margin-top:20px;
+    margin-left: 100px;
+    border:3px solid brown;
+    padding:20px;
+    width:80%;
+}
+
+.quantity{
+    display:flex;
+}
+#quat2{
+    margin-top:20px;
+    margin-left: 100px;
+    border:3px solid brown;
+    padding:20px;
+    width:60%;   
+}
+.products1 img{
+    width:100%;
+    height:100%;
+}
+.products2 h2{
+    font-size:30px;
+    font-style:oblique;
+    word-spacing:5px;
+}
+.products2 h3{
+    font-size:20px;
+    font-style:oblique;
+    word-spacing:5px;
+}
+
+.order{
+    margin-top:80px;
+}
+.order a{
+    
+    text-decoration: none;
+    color:white;
+    background-color:brown;
+    font-size:25px;
+    padding:10px;
+    border-radius:5px;
+    margin:10px;
+    word-spacing:5px;
+    
+}
+.order2{
+    
+   
+    background-image: url(/images/slickimg2.jpeg);
+    margin-left:90px;
+    border-radius: 5px;
+    background-size: cover;
+    width:50%;
+    height:60px;
+    display:none;
+    padding:10px;
+    text-align:center;
+}
+.sp1{
+color:white;
+}
+.details h3{
+    letter-spacing: 1px;
+font-size:30px;
+font-style:oblique;
+}
+.details p{
+    
+    font-size:20px;
+    font-style:oblique;
+    word-spacing:5px;
+    letter-spacing:2px;
+    text-align: justify;
+    line-height:35px;
+}
+/*section3*/
+
+.wholesection3{
+    border:var(--border);
+    margin:var(--margin);
+    width:var(--width);
+    min-height:var(--minheight);
+
+}
+
+.section3{
+    border:1px solid red;
+    border:var(--border1);
+    margin:var(--margin);
+    max-width:var(--maxwidth);
+    background-color:#FFE17B;
+}
+
+.art{
+    padding:3%; 
+    display:flex;
+    justify-content: space-between;
+}
+.art1{
+    
+    box-shadow:2px 2px 2px 1px white;
+    flex-basis:20%;
+    background-color:white;
+    border-radius:50px ;
+
+}
+.artimg1 img{
+    width:300px;
+    height:300px;
+    border-radius: 50px;
+    
+}
+.hd1{
+    font-size:40px;
+    text-align:center;
+    font-style:oblique;
+    word-spacing:5px;
+    letter-spacing:3px;
+    padding:3%;
+    color:brown;
+}
+.artcon1{
+    color:brown;
+    text-align: center;
+}
+.artcon1 h3{
+    font-style:oblique;
+    font-size: 30px;
+    word-spacing:3px;
+    color:brown;
+}
+.artcon1 h4{
+    
+    font-style:oblique;
+    font-size: 20px;
+    word-spacing:5px;
+    color:black;
+}
+.artcon1 h5{
+    font-style:oblique;
+    font-size: 20px;
+    word-spacing:3px;
+    color:red;
+
+}
+
+/* section4*/
+.wholesection4{
+    /* border:var(--border); */
+    /* margin:var(--margin); */
+    width:var(--width);
+    min-height:var(--minheight);
+    background-color:brown;
+}
+
+.section4{
+    border:var(--border1);
+    margin:var(--margin);
+    max-width:var(--maxwidth);
+}
+
+.contacts h1{
+    
+    font-size: 50px;
+    word-spacing:5px;
+    letter-spacing:2px;
+    font-style:oblique;
+    text-align: center;
+    color:white;
+}
+.contacts h4{
+    font-size: 20px;
+    word-spacing:5px;
+    letter-spacing:2px;
+    font-style:oblique;
+    text-align: center;
+    color:rgba(255, 255, 0, 0.727);
+}
+.contcon{
+    
+    display:flex;
+    justify-content:space-between;
+    text-align: center;
+    
+    
+}
+.contcon1{
+flex-basis:35%;
+margin:0 20px;
+background-color: white;
+box-shadow:2px 2px 2px 2px black;
+border-radius:5%;
+
+}
+.c1,.c2,.c3,.c4,.c5{
+    display:block;
+}
+.contcon1 h2{
+    color:brown;
+    font-style: oblique;
+    word-spacing:5px;
+    letter-spacing: 2px;
+    }
+.mediaslink{
+    
+    justify-content:center;
+    background-color:white;
+    border-radius:10%;
+    box-shadow:2px 2px 2px 2px black;
+    width:8%;
+    height:5%;
+    display:flex;
+    padding:1%;
+    margin:20px;
+    margin-left: 45%;
+  justify-content: space-between;
+    
+    }
+   
+    
+.contcon1 h5{
+    font-size:20px;
+    margin-top:20px;
+    color:black;
+   font-style:oblique;
+    letter-spacing: 2px;
+}
+.fb img{
+    width:30px;
+    height:20px;
+    
+    color:white;
+    
+}
+.ins img{
+    width:20px;
+    height:20px;
+    
+   
+}
+
+.twitt img{
+    width:30px;
+    height:20px;
+   
+}
+.lin img{
+    width:40px;
+    height:20px;
+    
+}
+.para{
+    margin-top:2%;
+    text-align: center;
+    color:white;
+    font-style:oblique;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+
+
+
+/*media queries*/
+    
+
+   /*1.mobile view*/
+ @media  only screen and (max-width:600px){
+  
+  
+  
+  /*section1*/
+   
+    .section1{
+        margin-top: 2%;
+    }
+ 
+    .logo1{
+        margin:auto 10px;
+        width:100%;
+    }
+     .logo2 li{
+        display:none;
+    } 
+
+    .logo4 ,.smain{
+        display:none;
+    }
+
+     .bars i{
+        
+        font-size:30px;
+       
+    }
+    .bars {
+        display:block;
+        position:relative;
+        margin-right:30px ;
+        margin-top:20px;
+    }
+    .lists{
+       
+        position:absolute;
+        z-index:10000 ;
+        right:30px;
+        background-color:green;
+        margin:auto;
+        
+    }
+
+    .menu-mv{
+       display:none;
+       list-style-type:none;
+       margin-right:30px;
+       
+    }
+    .menu-mv li{
+      margin:auto;
+      font-size:20px;
+      padding:20px;
+    }
+
+
+    .menu-mv li a{
+     color:white;
+    text-decoration:none ; 
+   
+    }
+
+
+
+    /*section1c*/
+   .logo2c{
+    width:90%;
+    
+
+   }
+   .menuc li{
+    font-size: medium;
+   }
+
+   
+   /*section2*/
+    .products{
+    display:block;
+   }
+   .products1 img{
+    width:400px;
+    /* margin:auto 50px; */
+   }
+   .products2{
+    margin:auto;
+   }
+   .products2 h2{
+    font-size:17px;
+    margin:20px auto;
+    word-spacing:0px;
+    
+   }
+   .sizess{
+    align-items:center;
+   }
+   #sizes2{
+   margin-top:0px;
+   width:0%;
+   padding:0px;
+   margin-left:0px;
+   }
+   #size2{
+    padding:0px;
+    margin-top:0px;
+    width:70%;
+   }
+   #flv2{
+    padding:0px;
+    margin-bottom:0px;
+    margin-left:120px;
+   }
+   #quat2{
+    padding:0px;
+    margin-bottom:0px;
+    margin-left:120px;
+    width:80%;
+   }
+ 
+   /*section3*/
+   .art{
+    display:block;
+    width:90%;
+    margin:auto;
+   }
+   .art1{
+     margin:auto;
+     width:70%;
+   }
+  .artimg1 img{
+        width:100%;
+        /* margin:10px 30px; */
+    }
+
+
+    /* section 4*/
+   
+    .contcon{
+        display:block;
+        margin:auto;
+        width:70%;
+       
+    }
+    .contcon1{
+        margin-bottom:2%;
+    }
+    .mediaslink{
+        width:20%;
+        margin:auto;
+    }
+    
+   }
+
+
+   /*2. tablet view*/
+
+     @media (min-width:601px) and (max-width:768px){
+   
+      /*section1*/
+      .section1{
+        margin-top: 2%;
+    }
+ 
+    .logo1{
+        margin:auto 10px;
+        width:100%;
+    }
+     .logo2 li{
+        display:none;
+    } 
+
+    .logo4 ,.smain{
+        display:none;
+    }
+
+     .bars i{
+        
+        font-size:30px;
+       
+    }
+    .bars {
+        display:block;
+        position:relative;
+        margin-right:30px ;
+        margin-top:20px;
+    }
+    .lists{
+       
+        position:absolute;
+        z-index:10000 ;
+        right:30px;
+        background-color:green;
+        margin:auto;
+        
+    }
+
+    .menu-mv{
+       display:none;
+       list-style-type:none;
+       margin-right:30px;
+       
+    }
+    .menu-mv li{
+      margin:auto;
+      font-size:20px;
+      padding:20px;
+    }
+
+
+    .menu-mv li a{
+     color:white;
+    text-decoration:none ; 
+   
+    }
+
+    /*section 1c*/
+
+    .logo2c{
+    width:90%;
+    
+
+   }
+   .menuc li{
+    font-size: 20px;
+   }
+
+   /*section 2*/
+
+   .products{
+    display:block;
+   }
+   .products1 img{
+    width:400px;
+    margin:auto 120px;
+   }
+   .products2{
+    margin:auto;
+   }
+   .products2 h2{
+    font-size:17px;
+    margin:20px auto;
+    word-spacing:0px;
+    
+   }
+   .sizess{
+    align-items:center;
+   }
+   #sizes2{
+   margin-top:0px;
+   width:0%;
+   padding:0px;
+   margin-left:0px;
+   }
+   #size2{
+    padding:0px;
+    margin-top:0px;
+    width:70%;
+   }
+   #flv2{
+    padding:0px;
+    margin-bottom:0px;
+    margin-left:120px;
+    width:85%;
+   }
+   #quat2{
+    padding:0px;
+    margin-bottom:0px;
+    margin-left:120px;
+    width:76%;
+   }
+ 
+  /*section3*/
+
+  .art{
+    
+    display:block;
+    justify-content:space-between;
+    width:100%;
+    margin:auto;
+   }
+
+   
+   .art1{
+     display:flex;
+     width:90%;
+     margin-bottom:20px;
+   }
+   .artcon1 {
+    margin-top:50px;
+   }
+  .artimg1 img{
+        margin:10px 30px;
+    }
+      
+
+     }
+
+</style>    
+<body>
+
+
+    <header class="wholesection1"  id="sec1">  
+        <div class="section1">
+                  <div class="navsec">
+                         <div class="logo1">
+                             <img src="images/bakerylogo1.png" alt = "bakerylogo1">
+                          </div> 
+                       
+                       <div class="logo2">
+   
+                           <ul class="menu">
+                              <li><a href="bakery.html" class="menu1">Home</a></li>
+                              <li><a href="bakery.html" class="menu2">About</a></li>
+                              <li><a href="bakery.html" class="menu3">Menu</a></li>
+                              
+                              <li><a href="bakery.html"class="menu4">Products</a></li>
+                              <li><a href="bakery.html" class="menu5">Contact</a></li>
+                           </ul>  
+                      
+                       </div>
+                      <div class="logo3">
+                         <a href="javascript:void(0)" class="logo4">Search </a>
+                           <div class="smain1 hide"> 
+                              <div class="smain">
+                                  <div class="search">
+                                     <input type="text" placeholder="search me" >
+                                  </div>
+                                  <div class="box">
+                                     <i class="fa-solid fa-magnifying-glass" class="mirror"></i>
+                                  </div>
+                               </div>
+                          </div>
+                      
+                       </div>
+
+
+                      <div class="bars">
+                        <i class="fa-solid fa-bars" ></i>
+                        <div class="lists"><ul class="menu-mv" >
+                          <li><a href="/bakery.html" class="menu1">Home</a></li>
+                          <li><a href="/bakery.html"class="menu2">About</a></li>
+                          <li><a href="/bakery.html" class="menu3">Menu</a></li>
+                          <li><a href="/bakery.html" class="menu4">Products</a></li>
+                          <li><a href="/bakery.html" class="menu5">Contact</a></li>
+                        </ul>
+                    </div>
+                    
+                 
+                  </div>
+          </div>
+   </header>
+    
+
+<section class="wholesection1c">  
+        
+     <div class="section1c">
+            <div class="navsecs">
+                         
+                       
+                       <div class="logo2c">
+   
+                           <ul class="menuc">
+                              <li><a href="/bakery.html" class="menu1c">HOME </a></li>
+                              <li><a href="#celeb-img" class="menu2c">CELEBRATION CAKES</a></li>
+                              <li><a href="#theme-cakes" class="menu3c">THEME CAKES</a></li>
+                              <li><a href="#theme-cakes" class="menu4c">COLLECTION</a></li>
+                              <li><a href="#sec4" class="menu5c">CONTACT</a></li>
+                           </ul>  
+                      
+                       </div>
+                     
+   
+           </div>
+     </div>
+</section>
+            
+     
+
+<section class="wholesection2" id="celeb-img">  
+        
+    <div class="section2">
+           <div class="products">
+                        <div class="products1">
+                            <img src="images/div1bgimg.jpeg" alt = "div1bgimg">
+                         </div> 
+                      
+                      <div class="products2">
+                            <h2>CHOCOLATE DONUT DRIPCAKE</h2>
+                            <h3><i class="fa-solid fa-indian-rupee-sign"></i> 3,500.00</h3>
+                            
+                                
+                             <div class="sizes"> 
+
+                                  <div class="sizess"> 
+                                     <div class="sizes1"><h2>Sizes</h2></div>
+
+                                      <div class="sizes2"> <select id="size2">
+                                       <option value=""></option>
+                                       <option value="">Medium(1200gm)</option>
+                                       <option value="">Medium Plus(1500gm)</option>
+                                       <option value="">Large(2000gm)</option>
+                                       <option value="">Large Plus(2500gm)</option>
+                                       <option value="">Extra Large(3000gm)</option>
+                                       </select></div>
+                                   </div>
+                             </div>
+                              <div class="flavours"> 
+                                  <div class="flavourss">
+                                    <div class="flavours1"> <h2>Flavours</h2></div>
+                                    <div class="flavours2"><select id="flv2">
+                                   
+                                     <option value="">Vanilla Buttercream</option>
+                                     <option value="">Strawberry Cake</option>
+                                     <option value="">Raspberry Cake</option>
+                                     <option value="">Chocolate Truffle</option>
+                                     <option value="">Chocolate Hazenut</option>
+                                   
+                                    </select></div>
+                                  </div> 
+                              </div>
+                      
+                      
+                              <div class="quantity">
+                                 <div class="quantity1"><h2>Quantity</h2></div>
+                                 <div class="quantity2"><input type="text" id="quat2"></div>
+                              </div> 
+                      
+                             <div class="order">
+                                
+                                <a href="javascript:void(0)">Order Now</a>
+                                <div class="order2">
+                                    <h3 class="sp1">Thank you for your order!</span></h3>
+                                </div>
+
+                             </div>
+
+
+                             <div class="details">
+                                <h3>Description</h3>
+                                <p>This chocolate donut cake design is for those with a sweet tooth and a taste for the flamboyant.With a tall, smooth, chocolatey base, this donut birthday cake comes embellished with various chocolate candy all over from candy bars.</p>
+
+                                 
+                             </div>   
+
+                      
+                      
+                        </div>
+                    
+  
+          </div>
+    </div>
+</section>
+           
+    
+
+<section class="wholesection3" id="theme-cakes">  
+        
+    <div class="section3">
+        <div class="articles">
+                <h2 class="hd1">You May Also Like</h2>
+                <div class="art">
+
+                        <div class="art1">
+                             <div class="artimg1"><img src="images/productcakeimg1.jpg" alt = "productcakeimg1"></div>
+        
+                       
+                            <div class="artcon1">
+                                <h3>Carrot  cake</h3>
+                                <h4><i class="fa-solid fa-indian-rupee-sign"></i> 549</h4>
+                                <h5 class="td1"> Earliest Delivery : Today</h5>
+
+                            </div>    
+                      </div>
+                       
+                      <div class="art1">
+                           <div class="artimg1"><img src="images/productcakeimg2.jpg" alt = "productcakeimg2"></div>
+                           <div class="artcon1">
+                              <h3>Chocolate fudge cake</h3>
+                              <h4><i class="fa-solid fa-indian-rupee-sign"></i> 700</h4>
+                              <h5 class="td1"> Earliest Delivery : Today</h5>
+                            </div>
+                        </div>        
+                       
+
+                       <div class="art1">
+                            <div class="artimg1"><img src="images/productcakeimg3.jpg" alt = "productcakeimg3"></div>
+                           <div class="artcon1">
+                              <h3>Vanilla berry cake</h3>
+                              <h4><i class="fa-solid fa-indian-rupee-sign"></i> 600</h4>
+                              <h5 class="td1"> Earliest Delivery : Today</h5>
+                           </div>   
+
+                        </div>    
+    
+                        </div>
+
+
+                       
+                       
+              </div>
+        </div>
+    </div>    
+
+ </section>
+ 
+ 
+ <section id="sec4" class="wholesection4">  
+    <div class="section4">
+          <div class="contacts">
+                       <h1>Contact Us</h1>
+                       
+               
+                <div class="contcon">
+                    <div class="contcon1">
+                      <h2><i class="fa-solid fa-landmark"></i> LOCATION</h2>
+                      <h5>121 Rock street,<span class="c1"> 21 Avenue,</span> <span class="c2">York city.</span> </h5>
+                    </div>
+                    <div class="contcon1">
+                      <h2><i class="fa-regular fa-clock"></i> WORKING HOURS</h2>
+                      <h5>monday-saturday<span class="c3"> 9am-7pm </span> sunday  <span class="c4">10am-6pm</span></h5>
+                      
+                    </div>
+                    <div class="contcon1">
+                      <h2><i class="fa-solid fa-phone"></i> CALL TODAY </h2>
+                      <h5> 1(234)567-991 <span class="c5">  2(345)444-909</span></h5>
+                        
+                    </div>  
+               </div>
+                   <div class="mediaslink">
+                      
+                       <div class="fb"><a href="https://www.facebook.com/"> <i class="fa-brands fa-facebook-f"></i> </a></div>
+                       <div class="ins"><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></div>
+                       
+                       <div class="twitt"><a href="https://twitter.com/home"> <i class="fa-brands fa-twitter"></i> </a></div>
+                       <div class="lin"><a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin-in"></i> </a></div>
+                  
+                   </div>    
+                
+  
+                 
+  
+                 <div class="para">
+                  <h3>Copyright<i class="fa-regular fa-copyright"></i> 2020-2040 Sweety's Bakery. All rights reserved.</h3>
+                 </div>
+           
+                          
+               
+               
+  
+  
+  
+          </div>      
+       
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    </div>
+  
+  </section>
+  
+  
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <script>
+
+ 
+
+    // DOM READY EVENT//
+
+
+    $(document).ready(function(){
+         //section1//
+         $(".logo4").click(function(){
+         $(".smain").toggle();
+         })
+
+         $(".bars").click(function(){
+        $(".menu-mv").toggle();
+        })  
+
+
+
+            // section 1c //
+      $(".order a").click(function(){
+      $(".order2").toggle();
+      })
+    })
+ </script>   
+</body>
+</html>

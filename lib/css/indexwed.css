@@ -1,0 +1,246 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+/**body {
+background-image:url("../images/girlimage.jpg");
+background-color:red;
+height:200px;
+width:1200px;
+}**/
+/**.main{
+    width:400px;
+    height:300px;
+    margin:auto;
+    border-style:dotted;
+}
+.main img{
+    width:100%;
+}**/
+.main{
+    margin:auto;
+    
+    margin-top:10px;
+    width:1200px;
+    height:662px;
+}
+.web{
+    background-image:url("../images/girlimage.jpg");
+    background-repeat:no-repeat;
+    width:100%;
+    
+    height:660px; 
+    width:1200px; 
+    position:absolute; 
+    right:100px;
+    
+    display:inline-block; 
+    background-size:cover;
+    background-position:center center;
+}
+.design{
+    display:inline-block;
+}
+.about{
+    display:inline-block;
+    padding:auto 5px;
+}
+.eve{
+    display:inline-block;
+}
+.wed{
+    display:inline-block;
+}
+.access{
+    display:inline-block;
+}
+.recep{
+    display:inline-block;
+}
+.bou{
+    display:inline-block;
+}
+.con{
+    display:inline-block;
+}
+.fb{
+    display:inline-block;
+}
+.ins{
+    display:inline-block;
+}
+.twitt{
+    display:inline-block;
+}
+.web{
+    display:inline-block;
+    position:relative;
+    left:0px;
+}
+
+/**.header a{
+    border-style:2px solid red;
+    height:20px;
+    width:20px;
+    display:inline-block;
+}**/
+.header{
+    z-index:1;
+    position:absolute;
+    top:10px;
+    bottom:20px;
+    
+}
+.design img{
+    width:80px;
+    height:80px;
+    margin:auto 20px;
+    display:inline-block;
+}
+.about a{
+    text-decoration:none;
+    display:inline-block;
+    padding:20px;
+    margin:auto 10px;
+}
+.about a:hover{
+    color:#00ffff;
+    font-weight:bolder;
+    font-style:oblique;
+}
+.eve a{
+    display:inline-block;
+    padding:20px;
+    margin: auto 10px;
+    text-decoration:none;
+}
+.eve a:hover{
+  color:aqua;
+  font-weight:bolder;
+  font-style:oblique;
+}
+.wed a{
+    display:inline-block;
+    padding:20px;
+    margin :auto 10px;
+    text-decoration:none;
+}
+.wed a:hover{
+    color:aqua;
+    font-weight:bolder;
+    font-style:oblique;
+}
+.access a{
+    display:inline-block;
+    padding:20px;
+    text-decoration:none;
+    margin: auto 10px;
+}
+.access a:hover{
+    color:aqua;
+    font-weight:bolder;
+    font-style:oblique;
+}
+.recep a{
+    display:inline-block;
+    padding:20px;
+    margin:auto 10px;
+    text-decoration:none;
+}
+.recep a:hover{
+    color:aqua;
+    font-weight:bolder;
+    font-style:oblique;
+}
+.bou a{
+    display:inline-block;
+    padding:20px;
+    margin:auto 10px;
+    text-decoration:none;
+}
+.bou a:hover{
+    font-weight:bolder;
+    color:aqua;
+    font-style:oblique;
+}
+.con a{
+    display:inline-block;
+    padding:20px;
+    margin:auto 10px;
+    text-decoration:none;
+}
+.con a:hover{
+    color:aqua;
+    font-weight:bolder;
+}
+
+.fb a{
+    display:inline-block;
+    padding:5px;
+    
+    text-decoration:none;
+}
+.ins a{
+    display:inline-block;
+    padding:5px;
+    
+    text-decoration:none;
+}
+.twitt a{
+    display:inline-block;
+    padding:5px;
+    
+    text-decoration:none;
+}
+.web a{
+    display:inline-block;
+    padding:5px;
+    text-decoration:none;
+}
+/**.content h1{
+font-size:20px;
+display:inline-block;
+margin:auto 100px;
+}**/
+
+.section{
+
+    margin:auto 100px;
+    width:1200px;
+    height:260px;
+    margin-left:20px;
+    margin-right:30px;
+}
+.section h1{
+    text-decoration:none;
+    margin:auto 250px;
+    padding:50px;
+    letter-spacing:5px;
+    word-spacing:5px;
+    color:darkblue;
+}
+.section p{
+    text-decoration:none;
+    margin:auto 450px;
+    font-style:italic;
+    padding:30px;
+    color:darkblue;
+}
+.section button{
+    padding:10px;
+    margin:auto 500px;
+    border-radius:20px;
+    color:darkgoldenrod;
+    border-color:white;
+    font-style:italic;
+    
+}
+.section button:hover{
+    color:plum;
+    font-weight:bolder;
+   /** transition-property:width;
+    transition-duration:5s;
+    transition-delay:2s;**/
+    
+}

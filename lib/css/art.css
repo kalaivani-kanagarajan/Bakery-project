@@ -1,0 +1,16 @@
+
+*{
+    margin:0px;
+    padding:0px;
+}
+
+
+.box{
+    border:1px solid black;
+    width:1200px;
+    height:200px;
+}
+.first1{
+    display:inline-block;
+    list-style-type:none;
+}

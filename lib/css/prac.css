@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+.pic img{
+    width:60px;
+    height:60px;
+}
+.pic{
+    position:absolute;
+    top:20px;
+    left:30px;
+}
+
+.heading{
+    border:1px solid black;
+    width:1000px;
+    height:90px;
+    margin:auto;
+}
+ul li{
+    display:inline-block;
+    padding:50px;
+}
+.nav li a:hover{
+    color:pink;
+}
+.menu :hover .submenu{
+    display:block;
+}
+.submenu li{
+    display:none;
+}
+
+

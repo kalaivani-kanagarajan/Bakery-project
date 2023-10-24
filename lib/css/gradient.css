@@ -1,0 +1,25 @@
+.grad{
+background-image:linear-gradient(red,yellow);
+background-color:red;
+height:200px;
+}
+.ggrad{
+    background-image:linear-gradient(to right,red,yellow,pink);
+    height:200px;
+}
+.gggrad{
+    background-image:linear-gradient(to bottom right,red,yellow);
+    height:200px;
+}
+.ggggrad{
+    background-image:linear-gradient(180deg,red,yellow);
+    height:200px;
+}
+.multiple{
+    background-image:linear-gradient(to right,red, orange,yellow,green,blue,indigo,violet);
+    height:200px;
+}  
+.repeat{
+    background-image:repeating-linear-gradient(red,yellow 10%,green 20%);
+    height:200px;
+} 

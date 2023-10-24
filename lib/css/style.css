@@ -1,0 +1,58 @@
+*{
+  padding:0;
+  margin:0;
+}
+
+
+
+
+#border{
+  background-image:url("../images/think-professional.jpg");
+  background-position:center center;
+  
+  width: 1350px;
+  height:660px;
+  margin:auto;
+  margin-top:20px;
+  
+  border:2px solid red;
+  background-size:cover;
+}
+.heading{
+    font-style:normal;
+    color:#ff0000;
+    font-size:50px;
+    padding:50px;
+    text-align:center;
+    text-transform:capitalize;
+    margin:auto 50px;
+}
+.heading1 p{
+    font-style:oblique;
+    font-size:20px;
+    font-weight:bolder;
+    color:rgb(226, 55, 43);
+    text-align:center;
+    text-transform:small;
+    padding:50px;
+    margin:auto 50px;
+}
+.button{
+      display:inline-block;
+      text-decoration: none;
+      color:#fff;
+      border:1px solid red;
+      width:150px;
+      /* height:40px; */
+      font-weight:bold;
+      font-size:18px;
+      background-color:#ff0000;
+        border-radius: 5px;
+      padding: 20px 15px;
+      transition: background-color 2s;  
+}
+      
+.button:hover{
+  background-color:#fff;
+  color:#000;
+}
