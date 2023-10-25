@@ -243,17 +243,11 @@ padding:20px;
     color:brown;
 }
 
-.conimg {
-    background-image:url(../images/chocolatecake.jpeg);
-    flex-basis:36.99%;
-    width:100%;
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position:center center ;
-    height:380px;
+.conimg img {
+    width:400px;
     border-radius:35%;
-
-    
+    flex-basis:30%;
+    margin-left:20px;
 }
 .content2{
     display:flex;
@@ -696,6 +690,7 @@ border-radius:5%;
     }
     .bgcon1{
         font-size:25px;
+        margin-left:150px;
     }
      .bgcon p{
         
@@ -711,9 +706,9 @@ border-radius:5%;
         margin:auto;
         font-size: 22px;
     }
-     .conimg{
+     .conimg img{
         width:90%;
-        margin:auto;
+    
      }
      .content2{
         display:block;
