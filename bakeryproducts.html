@@ -416,7 +416,7 @@ border-radius:5%;
     padding:1%;
     margin:20px;
     margin-left: 45%;
-  justify-content: space-between;
+   justify-content: space-between;
     
     }
    
@@ -546,12 +546,36 @@ border-radius:5%;
     .products{
     display:block;
    }
+   .products1,.products2{
+    padding:10px;
+    width:100% !important;
+   }
    .products1 img{
-    width:300px;
+    width:100%;
     
    }
    .products2{
     margin:auto;
+    padding:0px;
+
+   }
+   .products2 div [class$="1"]{
+    width: 30%;
+
+   }
+   .products2 div [class$="2"]{
+    width: 50%;
+
+   }
+   .products2 div [class$="2"] select{
+    width: 100% !important;
+    margin: 0  !important;
+
+   }
+   .products2 div [class$="2"] input{
+    width: 100% !important;
+    margin: 0  !important;
+
    }
    .products2 h2{
     font-size:17px;
@@ -559,7 +583,10 @@ border-radius:5%;
     word-spacing:0px;
     
    }
-   .sizess{
+   .sizes{
+    display: block ;
+   }
+   .products2 div div {
     align-items:center;
    }
    #sizes2{
@@ -571,7 +598,7 @@ border-radius:5%;
    #size2{
     padding:0px;
     margin-top:0px;
-    width:70%;
+    width:73%;
     margin-left:100px;
    }
    #flv2{
@@ -586,6 +613,7 @@ border-radius:5%;
     margin-left:73px;
     width:100px;
    }
+
  
    /*section3*/
    .art{
@@ -890,9 +918,13 @@ border-radius:5%;
                               </div>
                       
                       
-                              <div class="quantity">
-                                 <div class="quantity1"><h2>Quantity</h2></div>
+                              <div class="quantitys">
+                                <div class="quantity">
+                                    <div class="quantity1"><h2>Quantity</h2></div>
                                  <div class="quantity2"><input type="text" id="quat2"></div>
+
+                                </div>
+                                 
                               </div> 
                       
                              <div class="order">
