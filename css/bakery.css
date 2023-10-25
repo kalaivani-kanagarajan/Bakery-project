@@ -648,7 +648,7 @@ border-radius:5%;
         display:block;
         position:relative;
         margin-right:30px ;
-        margin-top:20px;
+        margin-top:10px;
     }
     .lists{
        
@@ -679,6 +679,8 @@ border-radius:5%;
     text-decoration:none ; 
    
     }
+
+
     /*section2*/
 
     .bgimg{
@@ -689,13 +691,26 @@ border-radius:5%;
         font-size: 30px;
     }
     .bgcon1{
-        font-size:25px;
-        margin-left:150px;
+        font-size:18px;
+        margin-left:120px;
     }
      .bgcon p{
         
         margin:10px 120px ;
      }
+
+
+     .owl-next{
+        position: absolute;
+        right: -19px;
+        top: 40%;
+    }
+    .owl-prev{
+        position: absolute;
+        left: -19px;
+        top: 40%;
+    }
+
 
 
 
