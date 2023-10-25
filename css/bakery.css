@@ -244,7 +244,7 @@ padding:20px;
 }
 
 .conimg {
-    background-image:url(/images/chocolatecake.jpeg);
+    background-image:url(../images/chocolatecake.jpeg);
     flex-basis:36.99%;
     width:100%;
     background-size:cover;
